@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #0047ab;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-container img.logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+header h1, header p {
+    margin: 5px 0;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pelabuhan-image {
+    width: 90%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.analysis-section {
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.feature-box {
+    background-color: #0047ab;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    color: #555;
+    margin-top: 20px;
+}
